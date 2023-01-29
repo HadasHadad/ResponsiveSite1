@@ -28,13 +28,21 @@ body {
     .align-center {
         align-items: center;
     }
-    
+    .profile-paragraph{
+        margin: auto 10em;
+    }
     
     
     .text-center {
         text-align: center;
     }
-    
+    .mobile-button{
+        display: none;
+    }
+    .left-paragraph{
+        margin-right: 2em;
+    }
+   
 }
 
 
@@ -60,7 +68,8 @@ header h1{
     background-color: hsl(203, 93%, 75%);
     margin: 0 ;
     padding-top: 1em;
-    width: 40%;
+    width: 90%;
+    padding-left: 1em;
    
 }
 form input{
@@ -73,6 +82,7 @@ form button{
     border-radius: 3%;
     width: 95%;
     margin: 0.5em 0;
+    padding: 2em;
 }
 .contact-form p{
     font-size: x-small;
@@ -93,6 +103,9 @@ i{
     background-color: rgb(241,241,241);
     color: rgb(168,166,161);
     padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .profile img{
     width: 10em;
@@ -100,7 +113,7 @@ i{
     border: solid black 1px;
 }
 .profile-paragraph{
-    margin: auto 10em;
+    margin: 2em;
 }
 footer{
     color: rgb(177,175,175);
@@ -117,8 +130,19 @@ footer a{
 .main-secondary{
     color: rgb(153,153,150);
     padding: 2em 1em;
+    margin-left: 3em;
 }
 .left-paragraph{
-    margin-right: 2em;
+    margin-right: 0;
+}
+.mobile-button{
+    display: flexbox;
+    background-color: rgb(255,165,53);
+    color: aliceblue;
+    width: 90%;
+}
+.mobile-button i{
+    font-size: small;
+    margin-right: 1em;
 }
 
